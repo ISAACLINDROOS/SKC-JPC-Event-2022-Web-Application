@@ -1,0 +1,185 @@
+
+
+ul {
+    
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    width: auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #fc0391;
+    color: white;
+    border-radius: 15px;
+}
+
+body {
+    background-image: url(images/milad-fakurian-NgLtdWk-6FI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    font-weight: lighter;
+    height: 100vh;
+}
+
+.title {
+    color: white;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+    border-color: #fc0391;
+    border-radius: 15px 15px 30px 30px;
+    margin: 40px 0 70px 0;
+    padding: 15px 40px ;
+}
+
+.subtitle {
+    color: seagreen;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.bodytext {
+    padding: 30px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.footer{
+     padding: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+  color: #ffffff;
+}
+
+.container .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.container .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+  color: #fc0391;
+}
+
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box foodinfobox{
+  color: white;
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  background-image: linear-gradient(#fc0391, #93348e);
+  background-blend-mode: soft-light;
+}
+.container .box foodinfobox foodtitle{
+  color: white;
+  letter-spacing: 3px;
+  font-family: 'Bebas Neue', cursive;
+}
+.container .box foodinfobox foodsubtitle{
+  color: aqua;
+  font-size: x-small;
+}
+
+
+.container .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 15px 15px 30px 30px;
+}
+
+.container .btn{
+  margin: 40px 0 70px 0;
+  background: #fc0391;
+  padding: 15px 40px ;
+  border-radius: 15px 15px 30px 30px;
+}
+
+.container .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+ font-family: 'Bebas Neue', cursive;
+}
+
+@media only screen and (max-width: 769px){
+    .container .box{
+   flex-direction: column;
+  }
+
+.container .box .dream{
+  width: 100%;
+  
+}
+
+}
+
+@media only screen and (max-width: 643px){
+.container .heading{
+  width: 100%;
+}
+.container .heading h3{
+  font-size: 1em;
+  color: #ffffff;
+
+}
+
+
+
+
+
+
+
+}

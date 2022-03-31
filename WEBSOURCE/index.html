@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2022 Food Extravaganza</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/nolan/64/home.png">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <link rel="stylesheet" href="style_index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="logo">
+        </div>
+        <div class="navigation-wrapper">
+            <div class="navigation-button">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="navigation-menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="food.html">FOOD</a></li>
+                    <li><a href="voting.html">VOTING</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="hero">
+            <h1>Saint Kentigern College 2022<br> <span>Food Extravaganza</span></h1>
+            <div class="button">
+                <a href="food.html" class="btn1">Food</a>
+                <a href="voting.html" class="btn2">Vote</a>
+            </div>
+        </section>
+    </div>
+    <script>
+        var navButton = document.querySelector('.navigation-button');
+        var navMenu = document.querySelector('.navigation-menu');
+        var win = window;
+
+        function openMenu(event) {
+
+            navButton.classList.toggle('active');
+            navMenu.classList.toggle('active');
+
+            event.preventDefault();
+            event.stopImmediatePropagation();
+        }
+
+        function closeMenu(event) {
+            if (navButton.classList.contains('active')) {
+                navButton.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        }
+        navButton.addEventListener('click', openMenu, false);
+
+        win.addEventListener('click', closeMenu, false);
+    </script>
+</body>
+
+</html>
