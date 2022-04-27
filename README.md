@@ -1,4 +1,4 @@
-# 12COMSCI22
+# Web Application Development
 
 You are going to plan, design and create a web app concept as a functional prototype which allows users (students, parents and teachers) to view, vote on and provide feedback on food served during the 2022 SEPTEMBER TECH EXTRAVAGANZA event in JPC. 
 You are encouraged to be most creative, patient with your client(s) (year 12 food technology students) critiques and flexible with their requests and feedback. 
