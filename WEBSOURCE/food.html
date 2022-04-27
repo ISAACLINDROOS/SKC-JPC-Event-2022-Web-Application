@@ -1,80 +1,95 @@
+<!-- Isaac Lindroos - 2022 12COMSCI: "HTML Web App" (food.html) -->
+
 <!DOCTYPE html>
 <html lang="en">
 
   <head>
     <meta charset="utf-8">
+    <title>FE22 - Food</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Food</title>
     <link rel="stylesheet" type="text/css" href="style_food.css">
-    <link rel="icon" type="image/x-icon"
-      href="https://img.icons8.com/nolan/64/monitor.png">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/nolan/64/monitor.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
   </head>
 
-  <section class="title">
-    <h1>Food</h1>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet">
-  </section>
-
-  <ul>
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="food.html">FOOD</a></li>
-    <li><a href="voting.html">VOTING</a></li>
-    <li><a href="feedback.html">FEEDBACK</a></li>
-    <li><a href="resources.html">RESOURCES</a></li>
-  </ul>
+  
   <body>
     <div class="container">
       <div class="heading">
-        <h3>Check out these <span>Amazing Creations!</span></h3>
+        <h3>Check out these <p></p><span>Amazing Creations!</span></h3>
       </div>
       <div class="box">
 
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+
+        </div>
+      
         <div class="dream">
-          <foodinfobox><foodtitle>Blini</foodtitle><P>🍞🦞🥛🌿</P><foodsubtitle>you food details here...</foodsubtitle></foodinfobox>
-          <img src="images/blini.jpg">
-          <foodinfobox><foodtitle>Egg</foodtitle><P>🍞🥛</P><foodsubtitle>you food details here...</foodsubtitle></foodinfobox>
-          <img src="images/egg.jpg">
-          <foodinfobox><foodtitle>Jellies</foodtitle><P>🥛🌿</P><foodsubtitle>you food details here...</foodsubtitle></foodinfobox>
-          <img src="images/jellies.jpg">
-          <foodinfobox><foodtitle>Melon</foodtitle><P>🥛🌿</P><foodsubtitle>you food details here...</foodsubtitle></foodinfobox>
-          <img src="images/melon.jpg">
+          <foodinfobox><foodtitle>Blini</foodtitle><P><P>🍞🦞🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/blini.jpg" alt="blini">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Egg</foodtitle><P><P>🍞🥛</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/egg.jpg" alt="egg">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Jellies</foodtitle><P><P>🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/jellies.jpg" alt="jellies">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Melon</foodtitle><P><P>🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/melon.jpg" alt="melon">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+        </div>
+        
+
+        <div class="dream">
+          <foodinfobox><foodtitle>Quiche</foodtitle><P><P>🍞🥩🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/quiche.jpg" alt="quiche">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Ricotta</foodtitle><P></P>🍞🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/ricotta.jpg" alt="ricotta">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Salmon</foodtitle><P><P>🍞🦞🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/salmon.jpg" alt="salmon">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Shrimp</foodtitle><P><P>🦞🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/shrimp.jpg" alt="shrimp">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Sp Dish</foodtitle><P><P>🦞🥩🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/spdish.jpg" alt="spdish">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
         </div>
 
         <div class="dream">
-          <h3>Quiche<P>🍞🥩🥛🌿</P></h3>
-          <img src="images/quiche.jpg">
-          <h3>Ricotta<P>🍞🥛🌿</P></h3>
-          <img src="images/ricotta.jpg">
-          <h3>Salmon<P>🍞🦞🥛🌿</P></h3>
-          <img src="images/salmon.jpg">
-          <h3>Shrimp<P>🦞🌿</P></h3>
-          <img src="images/shrimp.jpg">
-          <h3>Sp Dish<P>🦞🥩🥛🌿</P></h3>
-          <img src="images/spdish.jpg">
-        </div>
-
-        <div class="dream">
-          <h3>Roast<P>🍞🥩🌿</P></h3>
-          <img src="images/roast.jpg">
-          <h3>Sweet Potato<P>🥛🌿</P></h3>
-          <img src="images/sweetpotato.jpg">
-          <h3>Terrina di verdure<P>🥛🌰🌿</P></h3>
-          <img src="images/terrina di verdure.jpg">
-          <h3>Mozarella<P>🥩🥛🌿</P></h3>
-          <img src="images/mozarella.jpg">
+          <foodinfobox><foodtitle>Roast</foodtitle><P><P>🍞🥩🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/roast.jpg" alt="roast">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Sweet Potato</foodtitle><P><P>🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/sweetpotato.jpg" alt="sweetpotato">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Terrina di verdure</foodtitle><P><P>🌰🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/terrina_di_verdure.jpg" alt="terrina_di_verdure">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
+          <foodinfobox><foodtitle>Mozarella</foodtitle><P><P>🥩🥛🌿</P><foodsubtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam vel consectetur pellentesque. Donec vehicula fermentum ornare. Fusce sit amet mollis arcu. Sed porta hendrerit eleifend. Integer at sollicitudin ex. Pellentesque augue leo, lobortis non dui nec, tristique dignissim lectus. Integer consectetur pretium pretium.</foodsubtitle></foodinfobox>
+          <img src="images/mozarella.jpg" alt="mozarella">
+          <votebox><a href="javascript:alert('Your Vote has been Recorded. Thank You for Voting!');" rel="follow" class="button"> <div class="button-row"> <div class="part-text"> <span class="label">✔ Vote for this Dish!</span> </div> </div> </a></votebox>
         </div>
       </div>
+      <img src="images/1_bA5tEi6SKCZxvA_3xzSNIQ.gif" alt="vote_signs" style="width:480px;height:480px;">
     </div>
 
-    <div class="container">
-      <div class="btn">
-        <a href="#">Top</a>
-      </div>
+    <div class="navbar" id="food_navbar">
+      <a href="#">⇮</a>
+      <a href="#"></a>
+      <a href="index.html">Home</a>
+      <a href="feedback.html">Give us some Feedback!</a>
     </div>
-
+    
+    <script src="food_navbar.js"></script>
+  
   </body>
+
 </html>
